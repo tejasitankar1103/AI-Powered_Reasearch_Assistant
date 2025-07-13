@@ -1,0 +1,26 @@
+# Ignore virtual environment
+venv/
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# VSCode settings (optional)
+.vscode/
+
+# Mac OS files
+.DS_Store
+
+# Streamlit specific
+.streamlit/config.toml
+
+# Model checkpoints or temp files
+*.pkl
+*.pt
+*.bin
+*.safetensors
+
+# HuggingFace cache
+.cache/
